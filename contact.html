@@ -13,45 +13,63 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"  type='text/css'>
     </head>
     <body>
-        <section class="header">
+        <section class="sub-header">
             <nav>
                 <a href="index.html"><img src="images/logo.png" alt=""></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fas fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
+                        <li><a href="/index.html">HOME</a></li>
                         <li><a href="/about.html">ABOUT</a></li>
                         <li><a href="">PARTNERS</a></li>
-                        <li><a href="/contact.html">CONTACT</a></li>
+                        <li><a href="">CONTACT</a></li>
                     </ul>
                 </div>
                 <i class="fas fa-bars" onclick="showMenu()"></i>
             </nav>
 
-            <div class="text-box">
-                <h1>Providing Efficient Solutions for Sustainable Incremental Hydrocarbon Production</h1>
-                <p>Hayah Oil & Gas Consultancy</p>
-                <a href="#intro" class="hero-btn">Learn More</a>
-            </div>
+            <h1>Contact us</h1>
 
         </section>
 
-        <section class="intro" id=intro>
-            <h1>What we do</h1>
-            <p>We are a highly experienced team with over 25 years track record in<br> managing complex fields around the world</p>
-            
+        <section class="contact-us">
             <div class="row">
-                <div class="intro-col">
-
+                <div class="contact-col">
+                    <div>
+                        <i class="fas fa-home"></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Dubai, United Arab Emirates</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>+971-12356789</h5>
+                            <p>Hayah CEO</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>azhari@hayah-oc.com</h5>
+                            <p>Email us your enquiries</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Enter Name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter subject" required>
+                        <textarea rows="8" name="enquiry" placeholder="Enquiry" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send</button>
+                    </form>
                 </div>
             </div>
-        
         </section>
 
-        <section class="contact">
-            <h1>Get in touch to learn more about what we can offer</h1>
-            <a href="" class="hero-btn">CONTACT US</a>
-        </section>
+        
 
         <section class="footer">
             <p>Hayah Oil and Gas consultancy</p>
